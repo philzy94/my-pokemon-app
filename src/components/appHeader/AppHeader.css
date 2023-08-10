@@ -1,0 +1,27 @@
+.header{
+background: white;
+height: 90px;
+width: 100%;
+top:0;
+left: 0;
+position: fixed;
+z-index:200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headerImage{
+
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.2s ease-in-out;
+
+}
+
+.headerImage :hover{
+    opacity: 90%;
+    transform: scale(1.05);
+}

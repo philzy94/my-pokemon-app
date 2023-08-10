@@ -1,0 +1,31 @@
+.content {
+  margin-top: 100px;
+}
+
+.poke-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn{
+  padding: 20px;
+  margin: 20px;
+}
+.img{
+  width: 140px;
+  height: 140px;
+}
+
+.poke-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(166.57deg, #18345C 5.47%, #18345C 90.36%);
+  border-radius: 22px;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  transition: all 0.2s ease-in-out;
+  font-style: normal;
+  font-family: monospace;
+  text-decoration: none;
+}

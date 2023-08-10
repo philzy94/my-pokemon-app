@@ -1,0 +1,43 @@
+.container {
+
+  background: linear-gradient(166.57deg, #18345C 5.47%, #18345C 90.36%);
+
+}
+center h1 {
+  color: #b0b0b0;
+  border-bottom: 2px solid #b0b0b0;
+}
+
+.container-content {
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: 100vh;
+}
+.pokemon-detail{
+  height: 50%;
+  position: relative;
+}
+
+.info-section{
+
+}
+
+.main-container{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageCard {
+  position: absolute;
+  bottom: -20%;
+  left: 10%;
+}
+
+.img-detail {
+  width: 100%;
+  height: 100%;
+}
